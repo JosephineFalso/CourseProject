@@ -1,1 +1,0 @@
-documents system precision recall case results queries user document difference search users position measure list average retrieval evaluation set systems b measures dcg problem test

@@ -19,10 +19,12 @@ import string
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
+weekly = 'Week3'
+
 # Open the file containing the scraped text from Week 3 of Coursera. This is the transcription text from the CS410 lecture videos.
 # Replace all newline characters with a space.
 # All text will be converted to lower case.
-courseText = open('../Scraped_Text/Week3_Coursera_Text.txt').read()
+courseText = open('../Scraped_Text/' + weekly + '_Coursera_Text.txt').read()
 courseText = courseText.replace('\n', ' ')
 lcCourseText = courseText.lower()
 
@@ -51,7 +53,7 @@ freq = nltk.FreqDist(cleaned_and_tokenized_list)
 mostCommon = freq.most_common(25)
 
 wordList = []
-f = open('../Text_Output/FreqDistWeek3_All.txt', "w")
+f = open('../Text_Output/FreqDist_' + weekly + '.txt', "w")
 for a,b in mostCommon:
     wrd = '\n Common Word:  ', a
 #    print(wrd)
@@ -62,10 +64,10 @@ for a,b in mostCommon:
     f.writelines(cnt)
 
 print(wordList)
-f1 = open('../Text_Output/CommonWordsWeek3_All.txt', "w")
+f1 = open('../Text_Output/CommonWords_' + weekly + '.txt', "w")
 f1.write(' '.join(wordList))
 
 topicList = ['precision','recall','average precision', 'f-measure', 'map', 'gmap', 'dcg', 'ndcg']
-f2 = open('../CourseProject/Text_Output/TopicList.txt', "w")
+f2 = open('../Text_Output/TopicList_' + weekly + '.txt', "w")
 for element in topicList:
     f2.write(element + "\n")

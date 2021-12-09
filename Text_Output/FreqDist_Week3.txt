@@ -25,27 +25,27 @@
  Count of word: 31
  Common Word:  position
  Count of word: 26
- Common Word:  measure
- Count of word: 25
  Common Word:  list
  Count of word: 25
  Common Word:  average
+ Count of word: 25
+ Common Word:  measure
  Count of word: 25
  Common Word:  retrieval
  Count of word: 22
  Common Word:  evaluation
  Count of word: 22
- Common Word:  set
- Count of word: 21
- Common Word:  systems
- Count of word: 21
- Common Word:  b
- Count of word: 21
  Common Word:  measures
+ Count of word: 21
+ Common Word:  problem
  Count of word: 21
  Common Word:  dcg
  Count of word: 21
- Common Word:  problem
+ Common Word:  b
+ Count of word: 21
+ Common Word:  set
+ Count of word: 21
+ Common Word:  systems
  Count of word: 21
  Common Word:  test
  Count of word: 20

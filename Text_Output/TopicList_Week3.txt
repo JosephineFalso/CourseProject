@@ -1,0 +1,8 @@
+precision
+recall
+average precision
+f-measure
+map
+gmap
+dcg
+ndcg
