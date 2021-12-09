@@ -10,131 +10,131 @@ const items = [
         label: 'Text Retrieval',
         titleitems: [
             {
-                name: 'Lesson 1.1 Natural Language Content Analysis.mp4',
-                label: 'Lesson 1.1 Natural Language Content Analysis'
+                name: '1.1 Natural Language Content Analysis.mp4',
+                label: '1.1 Natural Language Content Analysis'
             },
-            {name: 'Lesson 1.2 Text Access.mp4', label: 'Lesson 1.2 Text Access'},
-            {name: 'Lesson 1.3 Text Retrieval Problem.mp4', label: 'Lesson 1.3 Text Retrieval Problem'},
+            {name: '1.2 Text Access.mp4', label: '1.2 Text Access'},
+            {name: '1.3 Text Retrieval Problem.mp4', label: '1.3 Text Retrieval Problem'},
             {
-                name: 'Lesson 1.4 Overview of Text Retrieval Methods.mp4',
-                label: 'Lesson 1.4 Overview of Text Retrieval Methods'
-            },
-            {
-                name: 'Lesson 1.5 Vector Space Model - Basic Idea.mp4',
-                label: 'Lesson 1.5 Vector Space Model - Basic Idea'
+                name: '1.4 Overview of Text Retrieval Methods.mp4',
+                label: '1.4 Overview of Text Retrieval Methods'
             },
             {
-                name: 'Lesson 1.6 Vector Space Retrieval Model - Simplest Instantiation.mp4',
-                label: 'Lesson 1.6 Vector Space Retrieval Model - Simplest Instantiation'
+                name: '1.5 Vector Space Model - Basic Idea.mp4',
+                label: '1.5 Vector Space Model - Basic Idea'
             },
             {
-                name: 'Lesson 2.1 Vector Space Model - Improved Instantiation.mp4',
-                label: 'Lesson 2.1 Vector Space Model - Improved Instantiation'
-            },
-            {name: 'Lesson 2.2 TF Transformation.mp4', label: 'Lesson 2.2 TF Transformation'},
-            {name: 'Lesson 2.3 Doc Length Normalization.mp4', label: 'Lesson 2.3 Doc Length Normalization'},
-            {name: 'Lesson 2.4 Implementation of TR Systems.mp4', label: 'Lesson 2.4 Implementation of TR Systems'},
-            {
-                name: 'Lesson 2.5 System Implementation - Inverted Index Construction.mp4',
-                label: 'Lesson 2.5 System Implementation - Inverted Index Construction'
+                name: '1.6 Vector Space Retrieval Model - Simplest Instantiation.mp4',
+                label: '1.6 Vector Space Retrieval Model - Simplest Instantiation'
             },
             {
-                name: 'Lesson 2.6 System Implementation - Fast Search.mp4',
-                label: 'Lesson 2.6 System Implementation - Fast Search'
+                name: '2.1 Vector Space Model - Improved Instantiation.mp4',
+                label: '2.1 Vector Space Model - Improved Instantiation'
             },
-            {name: 'Lesson 3.1 Evaluation of TR Systems.mp4', label: 'Lesson 3.1 Evaluation of TR Systems'},
+            {name: '2.2 TF Transformation.mp4', label: '2.2 TF Transformation'},
+            {name: '2.3 Doc Length Normalization.mp4', label: '2.3 Doc Length Normalization'},
+            {name: '2.4 Implementation of TR Systems.mp4', label: '2.4 Implementation of TR Systems'},
             {
-                name: 'Lesson 3.2 Evaluation of TR Systems - Basic Measures.mp4',
-                label: 'Lesson 3.2 Evaluation of TR Systems - Basic Measures'
-            },
-            {
-                name: 'Lesson 3.3 Evaluation of TR Systems - Evaluating Ranked Lists - Part 1.mp4',
-                label: 'Lesson 3.3 Evaluation of TR Systems - Evaluating Ranked Lists - Part 1'
+                name: '2.5 System Implementation - Inverted Index Construction.mp4',
+                label: '2.5 System Implementation - Inverted Index Construction'
             },
             {
-                name: 'Lesson 3.4 Evaluation of TR Systems - Evaluating Ranked Lists - Part 2.mp4',
-                label: 'Lesson 3.4 Evaluation of TR Systems - Evaluating Ranked Lists - Part 2'
+                name: '2.6 System Implementation - Fast Search.mp4',
+                label: '2.6 System Implementation - Fast Search'
+            },
+            {name: '3.1 Evaluation of TR Systems.mp4', label: '3.1 Evaluation of TR Systems'},
+            {
+                name: '3.2 Evaluation of TR Systems - Basic Measures.mp4',
+                label: '3.2 Evaluation of TR Systems - Basic Measures'
             },
             {
-                name: 'Lesson 3.5 Evaluation of TR Systems - Multi-Level Judgements.mp4',
-                label: 'Lesson 3.5 Evaluation of TR Systems - Multi-Level Judgements'
+                name: '3.3 Evaluation of TR Systems - Evaluating Ranked Lists - Part 1.mp4',
+                label: '3.3 Evaluation of TR Systems - Evaluating Ranked Lists - Part 1'
             },
             {
-                name: 'Lesson 3.6 Evaluation of TR Systems - Practical Issues.mp4',
-                label: 'Lesson 3.6 Evaluation of TR Systems - Practical Issues'
+                name: '3.4 Evaluation of TR Systems - Evaluating Ranked Lists - Part 2.mp4',
+                label: '3.4 Evaluation of TR Systems - Evaluating Ranked Lists - Part 2'
             },
             {
-                name: 'Lesson 4.1 Probabilistic Retrieval Model - Basic Idea.mp4',
-                label: 'Lesson 4.1 Probabilistic Retrieval Model - Basic Idea'
-            },
-            {name: 'Lesson 4.2 Statistical Language Model.mp4', label: 'Lesson 4.2 Statistical Language Model'},
-            {
-                name: 'Lesson 4.3 Query Likelihood Retrieval Function.mp4',
-                label: 'Lesson 4.3 Query Likelihood Retrieval Function'
+                name: '3.5 Evaluation of TR Systems - Multi-Level Judgements.mp4',
+                label: '3.5 Evaluation of TR Systems - Multi-Level Judgements'
             },
             {
-                name: 'Lesson 4.4 Statistical Language Model - Part 1.mp4',
-                label: 'Lesson 4.4 Statistical Language Model - Part 1'
+                name: '3.6 Evaluation of TR Systems - Practical Issues.mp4',
+                label: '3.6 Evaluation of TR Systems - Practical Issues'
             },
             {
-                name: 'Lesson 4.5 Statistical Language Model - Part 2.mp4',
-                label: 'Lesson 4.5 Statistical Language Model - Part 2'
+                name: '4.1 Probabilistic Retrieval Model - Basic Idea.mp4',
+                label: '4.1 Probabilistic Retrieval Model - Basic Idea'
             },
-            {name: 'Lesson 4.6 Smoothing Methods - Part 1.mp4', label: 'Lesson 4.6 Smoothing Methods - Part 1'},
-            {name: 'Lesson 4.7 Smoothing Methods - Part 2.mp4', label: 'Lesson 4.7 Smoothing Methods - Part 2'},
-            {name: 'Lesson 5.1 Feedback in Text Retrieval.mp4', label: 'Lesson 5.1 Feedback in Text Retrieval'},
+            {name: '4.2 Statistical Language Model.mp4', label: '4.2 Statistical Language Model'},
             {
-                name: 'Lesson 5.2 Feedback in Vector Space Model - Rocchio.mp4',
-                label: 'Lesson 5.2 Feedback in Vector Space Model - Rocchio'
+                name: '4.3 Query Likelihood Retrieval Function.mp4',
+                label: '4.3 Query Likelihood Retrieval Function'
             },
             {
-                name: 'Lesson 5.3 Feedback in Text Retrieval - Feedback in LM.mp4',
-                label: 'Lesson 5.3 Feedback in Text Retrieval - Feedback in LM'
+                name: '4.4 Statistical Language Model - Part 1.mp4',
+                label: '4.4 Statistical Language Model - Part 1'
             },
             {
-                name: 'Lesson 5.4 Web Search - Introduction & Web Crawler.mp4',
-                label: 'Lesson 5.4 Web Search - Introduction & Web Crawler'
+                name: '4.5 Statistical Language Model - Part 2.mp4',
+                label: '4.5 Statistical Language Model - Part 2'
             },
-            {name: 'Lesson 5.5 Web Indexing.mp4', label: 'Lesson 5.5 Web Indexing'},
-            {name: 'Lesson 5.6 Link Analysis - Part 1.mp4', label: 'Lesson 5.6 Link Analysis - Part 1'},
-            {name: 'Lesson 5.7 Link Analysis - Part 2.mp4', label: 'Lesson 5.7 Link Analysis - Part 2'},
+            {name: '4.6 Smoothing Methods - Part 1.mp4', label: '4.6 Smoothing Methods - Part 1'},
+            {name: '4.7 Smoothing Methods - Part 2.mp4', label: '4.7 Smoothing Methods - Part 2'},
+            {name: '5.1 Feedback in Text Retrieval.mp4', label: '5.1 Feedback in Text Retrieval'},
             {
-                name: 'Lesson 5.8 Link Analysis - Part 3 (OPTIONAL).mp4',
-                label: 'Lesson 5.8 Link Analysis - Part 3 (OPTIONAL)'
-            },
-            {
-                name: 'Lesson 6.1 Learning to Rank - Part 1 (OPTIONAL).mp4',
-                label: 'Lesson 6.1 Learning to Rank - Part 1 (OPTIONAL)'
-            },
-            {name: 'Lesson 6.10 Summary for Exam 1.mp4', label: 'Lesson 6.10 Summary for Exam 1'},
-            {
-                name: 'Lesson 6.2 Learning to Rank - Part 2 (OPTIONAL).mp4',
-                label: 'Lesson 6.2 Learning to Rank - Part 2 (OPTIONAL)'
+                name: '5.2 Feedback in Vector Space Model - Rocchio.mp4',
+                label: '5.2 Feedback in Vector Space Model - Rocchio'
             },
             {
-                name: 'Lesson 6.3 Learning to Rank - Part 3 (OPTIONAL).mp4',
-                label: 'Lesson 6.3 Learning to Rank - Part 3 (OPTIONAL)'
-            },
-            {name: 'Lesson 6.4 Future of Web Search.mp4', label: 'Lesson 6.4 Future of Web Search'},
-            {
-                name: 'Lesson 6.5 Recommender Systems - Content-Based Filtering - Part 1.mp4',
-                label: 'Lesson 6.5 Recommender Systems - Content-Based Filtering - Part 1'
+                name: '5.3 Feedback in Text Retrieval - Feedback in LM.mp4',
+                label: '5.3 Feedback in Text Retrieval - Feedback in LM'
             },
             {
-                name: 'Lesson 6.6 Recommender Systems - Content-Based Filtering - Part 2.mp4',
-                label: 'Lesson 6.6 Recommender Systems - Content-Based Filtering - Part 2'
+                name: '5.4 Web Search - Introduction & Web Crawler.mp4',
+                label: '5.4 Web Search - Introduction & Web Crawler'
+            },
+            {name: '5.5 Web Indexing.mp4', label: '5.5 Web Indexing'},
+            {name: '5.6 Link Analysis - Part 1.mp4', label: '5.6 Link Analysis - Part 1'},
+            {name: '5.7 Link Analysis - Part 2.mp4', label: '5.7 Link Analysis - Part 2'},
+            {
+                name: '5.8 Link Analysis - Part 3 (OPTIONAL).mp4',
+                label: '5.8 Link Analysis - Part 3 (OPTIONAL)'
             },
             {
-                name: 'Lesson 6.7 Recommender Systems - Collaborative Filtering - Part 1.mp4',
-                label: 'Lesson 6.7 Recommender Systems - Collaborative Filtering - Part 1'
+                name: '6.1 Learning to Rank - Part 1 (OPTIONAL).mp4',
+                label: '6.1 Learning to Rank - Part 1 (OPTIONAL)'
+            },
+            {name: '6.10 Summary for Exam 1.mp4', label: '6.10 Summary for Exam 1'},
+            {
+                name: '6.2 Learning to Rank - Part 2 (OPTIONAL).mp4',
+                label: '6.2 Learning to Rank - Part 2 (OPTIONAL)'
             },
             {
-                name: 'Lesson 6.8 Recommender Systems - Collaborative Filtering - Part 2.mp4',
-                label: 'Lesson 6.8 Recommender Systems - Collaborative Filtering - Part 2'
+                name: '6.3 Learning to Rank - Part 3 (OPTIONAL).mp4',
+                label: '6.3 Learning to Rank - Part 3 (OPTIONAL)'
+            },
+            {name: '6.4 Future of Web Search.mp4', label: '6.4 Future of Web Search'},
+            {
+                name: '6.5 Recommender Systems - Content-Based Filtering - Part 1.mp4',
+                label: '6.5 Recommender Systems - Content-Based Filtering - Part 1'
             },
             {
-                name: 'Lesson 6.9 Recommender Systems - Collaborative Filtering - Part 3.mp4',
-                label: 'Lesson 6.9 Recommender Systems - Collaborative Filtering - Part 3'
+                name: '6.6 Recommender Systems - Content-Based Filtering - Part 2.mp4',
+                label: '6.6 Recommender Systems - Content-Based Filtering - Part 2'
+            },
+            {
+                name: '6.7 Recommender Systems - Collaborative Filtering - Part 1.mp4',
+                label: '6.7 Recommender Systems - Collaborative Filtering - Part 1'
+            },
+            {
+                name: '6.8 Recommender Systems - Collaborative Filtering - Part 2.mp4',
+                label: '6.8 Recommender Systems - Collaborative Filtering - Part 2'
+            },
+            {
+                name: '6.9 Recommender Systems - Collaborative Filtering - Part 3.mp4',
+                label: '6.9 Recommender Systems - Collaborative Filtering - Part 3'
             }
         ],
     },
@@ -334,9 +334,9 @@ function App() {
     let [video, setVideo] = useState("");
     // let captions = fs.readFile('transcripts/textanalytics/edited/7.1 Overview Text Mining and Analytics - Part 1.json').trim()
 
-    useEffect(() => {
-        loadData()
-    }, [items]);
+    // useEffect(() => {
+    //     loadData()
+    // }, [items]);
 
 
     return (
@@ -347,9 +347,17 @@ function App() {
                 return setVideo(video)
             }}/>
             <Custom lectureName={video} transcript={getTranscript(video)}></Custom>
-            <Keywords></Keywords>
+            <Keywords week={getWeek(video)}></Keywords>
         </div>
     );
+}
+
+function getWeek(video){
+    console.log("video info: ",video[0])
+    if (video!==""){
+        return video[0].substring(0,1)
+    }
+    return ""
 }
 
 function getTranscript(video) {
@@ -381,61 +389,61 @@ function getTranscript(video) {
     }
 }
 
-async function loadData() {
-    let arr1 = items[0]
-    let arr2 = items[1]
-
-    let courses = arr1.titleitems
-    let name = arr1.name
-    console.log("length is: ", courses.length)
-    let text = "";
-    for (const courseName of courses) {
-        let transcriptFilePath = `transcripts/${name}/edited/${courseName.label}.vtt`
-        let myPromise1 = new Promise((resolve) => {
-            setTimeout(() => {
-                text = loadTranscript(transcriptFilePath)
-                resolve(text);
-            }, 10);
-        });
-        //await transcriptMap.set(transcriptFilePath, text)
-        myPromise1.then(
-            function (value) {
-                transcriptMap.set(transcriptFilePath, value)
-            }
-        )
-    }
-
-    courses = arr2.titleitems
-
-    name = arr2.name
-    console.log("length is: ", courses.length)
-    for (var courseIndex in courses) {
-        let transcriptFilePath = `transcripts/${name}/edited/${courses[courseIndex].label}.vtt`
-        let myPromise2 = new Promise((resolve) => {
-            setTimeout(() => {
-                text = loadTranscript(transcriptFilePath)
-                resolve(text);
-            }, 10);
-        });
-        myPromise2.then(
-            function (value) {
-                transcriptMap.set(transcriptFilePath, value)
-            }
-        )
-    }
-}
-
-async function loadTranscript(filePath) {
-    //'transcripts/textanalytics/tm-lec1-transcription-english.vtt'
-    // let transcriptFilePath=`transcripts/${filePath.lectureName[1]}/edited/${filePath.lectureName[0]}`
-    const data = await fetch(filePath)
-        .then(response => response.text())
-        //.then(data=> console.log(data))
-        .catch(error => console.error(error));
-    //console.log(data);
-    //console.log("processed file: ",filePath);
-    return data;
-}
+// async function loadData() {
+//     let arr1 = items[0]
+//     let arr2 = items[1]
+//
+//     let courses = arr1.titleitems
+//     let name = arr1.name
+//     console.log("length is: ", courses.length)
+//     let text = "";
+//     for (const courseName of courses) {
+//         let transcriptFilePath = `transcripts/${name}/edited/${courseName.label}.vtt`
+//         let myPromise1 = new Promise((resolve) => {
+//             setTimeout(() => {
+//                 text = loadTranscript(transcriptFilePath)
+//                 resolve(text);
+//             }, 10);
+//         });
+//         //await transcriptMap.set(transcriptFilePath, text)
+//         myPromise1.then(
+//             function (value) {
+//                 transcriptMap.set(transcriptFilePath, value)
+//             }
+//         )
+//     }
+//
+//     courses = arr2.titleitems
+//
+//     name = arr2.name
+//     console.log("length is: ", courses.length)
+//     for (var courseIndex in courses) {
+//         let transcriptFilePath = `transcripts/${name}/edited/${courses[courseIndex].label}.vtt`
+//         let myPromise2 = new Promise((resolve) => {
+//             setTimeout(() => {
+//                 text = loadTranscript(transcriptFilePath)
+//                 resolve(text);
+//             }, 10);
+//         });
+//         myPromise2.then(
+//             function (value) {
+//                 transcriptMap.set(transcriptFilePath, value)
+//             }
+//         )
+//     }
+// }
+//
+// async function loadTranscript(filePath) {
+//     //'transcripts/textanalytics/tm-lec1-transcription-english.vtt'
+//     // let transcriptFilePath=`transcripts/${filePath.lectureName[1]}/edited/${filePath.lectureName[0]}`
+//     const data = await fetch(filePath)
+//         .then(response => response.text())
+//         //.then(data=> console.log(data))
+//         .catch(error => console.error(error));
+//     //console.log(data);
+//     //console.log("processed file: ",filePath);
+//     return data;
+// }
 
 
 export default App;
