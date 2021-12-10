@@ -10,7 +10,8 @@ Our application alleviates the inconvenience of navigating in and out of Courser
 
 The complete project documentation is located in the file Project Documentation.pdf.
 
-A software usage tutorial video is located in this repository.
+A software usage tutorial video is located at:
+https://uofi.box.com/s/be3qzaou0674238672u74suoh1dkhmdx
 
 
 Team Members:<br />
